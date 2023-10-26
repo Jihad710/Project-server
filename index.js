@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 //stripe
-const stripe = require("stripe")(process.env.MELODY_PAYMENT_SECRET_KEY)
+const stripe = require("stripe")(process.env.PAYMENT_SECRET_KEY)
 
 // connect to the database 
 
